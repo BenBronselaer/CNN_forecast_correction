@@ -126,7 +126,7 @@ class forecast:
         model.add(layers.MaxPooling2D((2, 2)))
         #model.add(layers.Conv2D(32, (3, 3), activation='relu'))
         model.add(layers.Flatten())
-        model.add(layers.Dense(8, activation='relu',kernel_regularizer=regularizers.l2(0.01)))
+        model.add(layers.Dense(16, activation='relu',kernel_regularizer=regularizers.l2(0.01)))
         model.add(layers.Dropout(0.5))
         model.add(layers.Dense(1))
         
