@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-# this is an example how this model would be implemented in operations
+# this is an example how this model would be implemented in operation
 
 from forecast_helper import forecast
 import scipy.stats as stats
