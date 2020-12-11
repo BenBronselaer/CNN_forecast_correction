@@ -1,7 +1,11 @@
 # CNN_forecast_correction
-code to train and apply a CNN model to improve ensemble current forecast
+Code to train and apply a CNN model to improve ensemble current forecast.
 
-The files in this directory as the following:
+The forecast model outputs 2D fields of current speed, current direction and sea surface temperature for each lead time in the forecast. The forecast model has been found to show skill over simply climatology by comparing it against current speed data measured at a given location. The idea here is to use the 2D fields as images to train a convolutional neural net to then predict the ensemble error relative to the measurements, using a set of historic forecasts. The point of using the CNN is to capture spatial features in the current that might be interpreted by the CNN. 
+
+
+
+The files in this directory:
 
 ### 1. Jupyter notebook 'Process_CNN_correction'
   This notebook is where the convolutional neural network is trained. Can be run as a jupyter notebook as individual cells, or exported as python script and run in a terminal. 
