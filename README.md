@@ -13,6 +13,8 @@ The files in this directory:
   The notebook reads in the data, organizes it, trains the network and plots some diagnostics of the training and the testing results.
   
   Note that the current model forecasts and current measurements are private company data so are not uploaded.
+  
+  I have also added a '*_pretraining' version which aims to improve the CNN models by pre-training it on other lead times.
 
 
 ### 2. Python script 'main_example'
