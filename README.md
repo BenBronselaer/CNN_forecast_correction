@@ -14,7 +14,7 @@ The files in this directory:
   
   Note that the current model forecasts and current measurements are private company data so are not uploaded.
   
-  I have also added a '*_pretraining' version which aims to improve the CNN models by pre-training it on other lead times.
+  I have also added a '*_pretraining' version which aims to improve the CNN models by pre-training it on other lead times (this is also work in progress).
 
 
 ### 2. Python script 'main_example'
